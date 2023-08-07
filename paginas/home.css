@@ -1,0 +1,62 @@
+#pagina{
+    width: 100%;
+    height: 100%;
+}
+#classic{
+    width: 200px;
+    font-size: 2px;
+}
+#shorty{
+    width: 200px;
+    font-size: 7px;
+}
+#ghost{
+    width: 200px;
+    font-size: 6px;
+}
+#sheriff{
+    width: 200px;
+    font-size: 6px;
+}
+#frenzy{
+    width: 200px;
+    font-size: 2px;
+}
+
+
+#classic:hover{
+    color: white;
+    background-color:rgb(148, 5, 5);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    font-size: 12px;
+}
+#shorty:hover{
+    color: white;
+    background-color:rgb(148, 5, 5);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    font-size: 12px;
+}
+#ghost:hover{
+    color: white;
+    background-color:rgb(148, 5, 5);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    font-size: 12px;
+}
+
+#sheriff:hover{
+    color: white;
+    background-color:rgb(148, 5, 5);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    font-size: 12px;
+}
+#frenzy:hover{
+    color: white;
+    background-color:rgb(148, 5, 5);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    font-size: 12px;
+}

@@ -1,0 +1,189 @@
+@font-face {
+    font-family: Valorant;
+    src: url(font/Valorant\ Font.ttf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Valorant, Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Cabeçalho do Site */
+header{
+    background-image: linear-gradient(to right, rgba(10, 40, 58, 0.884), rgb(0, 0, 0));
+    width: 100%;
+    height: 90px;
+    text-align: center;
+}
+
+h1{
+ align-items: center;
+ color:white;
+}
+
+#pagina{
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    width: 100%;
+    height:100%;
+}
+nav{
+    background-image: linear-gradient(to right, rgba(13, 42, 59, 0.548), rgba(0, 5, 7, 0.603));
+    height: 40px;
+    align-items: center;
+    border: 1px solid ;
+    border-color: rgba(1, 255, 242, 0.158);
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0px 60px;
+    padding: 0px 20px;
+    text-decoration: none;
+    background-color:rgba(0, 0, 0, 0.342);
+    border-radius: 2px;
+}
+/* Final do cabeçalho do site */
+
+/* Começando o formulario */
+main{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 35%;
+    height: 500px;
+    border: rgba(0, 0, 0, 0.164) 3px;
+    border-style: double;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.445);
+    display: flex;
+    justify-content: center;
+    color: white;
+    border: rgb(141, 255, 223) 2px solid;
+    box-shadow: 0 0 20px rgb(0, 140, 240);
+}
+fieldset{
+    border: 3px solid rgb(0, 170, 156);
+    border-radius: 10px;
+    margin: 5px 5px;
+    height: 460px;
+}
+
+legend{
+        border: 1px solid rgb(0, 47, 94);
+        padding: 10px;
+        text-align:center;
+        background-image: linear-gradient(to right, rgb(32, 115, 163), rgb(17,56,71));
+        color: white;
+        border-radius: 6px;
+    }
+/* botoes do formulario */
+    #submit{
+        background-image: linear-gradient(to right, rgb(1, 150, 88), rgb(0, 85, 85));
+        width: 30%;
+        border: none;
+        padding: 15px;
+        margin: 20px 0px 10px 150px ;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+    }
+    #submit:hover{
+        background-image: linear-gradient(to right, rgb(1, 199, 182), rgb(4, 221, 94));
+    }
+
+    /* Info dos formularios */
+input{
+    margin: 6px;
+    align-items: center;
+}
+
+label{
+    margin: 0px 10px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+#senha{
+    color: aquamarine;
+    background-color: black;
+}
+/* NÃO TEM LOGIN?? */
+.link{
+    text-align: center;
+}
+/* CADASTRAR */
+#cad{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(0, 30, 48, 0.671);
+    color: rgb(0, 216, 133);
+}
+#cad:hover{
+    background-image: linear-gradient(to right, rgb(0, 92, 99), rgb(0, 155, 77));
+    color: white;
+}
+
+
+footer {
+    background-image: linear-gradient(to right, rgba(0, 80, 126, 0.884), rgb(0, 23, 32));
+    color: black;
+    position: absolute;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.logos{
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#valorant{
+    width: 100px;
+    height: auto;
+    padding-left: 50px;
+}
+#csgo{
+    width: 100px;
+    height: auto;
+    padding-left: 50px;
+   
+}
+#free{
+    width: 300px;
+    height: auto;
+    padding-left: 60px;
+    
+}
+#lol{
+    width: 100px;
+    height: auto;
+    padding-left: 50px;
+}
+#fall{
+    width: 250px;
+    height: auto;
+    padding-left: 50px;
+}
+#fifa{
+    width: 250px;
+    height: auto;
+    padding-left: 50px;
+}
